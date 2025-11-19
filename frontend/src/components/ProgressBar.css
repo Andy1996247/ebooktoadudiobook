@@ -1,0 +1,40 @@
+.progress-container {
+    margin: 2rem 0;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.progress-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.status-text {
+    font-weight: 500;
+    color: #646cff;
+}
+
+.percent-text {
+    font-family: monospace;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.progress-bar-bg {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #646cff, #b464ff);
+    transition: width 0.3s ease-out;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(100, 108, 255, 0.5);
+}
